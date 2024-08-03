@@ -1,0 +1,153 @@
+html {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+    background-color: #FFEAEA;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Flourish Deco + Title */
+
+h1 {
+    margin:0;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.photo-1 {
+    display: block;
+    margin: 0 auto;
+    height: 280px;
+    margin-top: 28px;
+  }
+
+.line-1 {
+        background: #343434;
+        height: 1px;
+        width: 400px;
+}
+
+.deco-half {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.heart {
+    width: 28px;
+}
+
+
+.deco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rings {
+    width: 28px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#couple {
+    display: flex;
+    flex-direction: column;
+}
+
+.deco-small {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rings-2 {
+    width: 16px;
+}
+
+.line-2 {
+    background: #343434;
+    height: 1px;
+    width: 270px;
+}
+
+#deco-timer {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+#countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+#countdown div {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+}
+
+.timer {
+    margin:0;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timer-label {
+    margin:0;
+    color: #343434;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#invitation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#invite-date {
+    max-width: 572px;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.invite {
+    font-size: 14px;
+    font-weight: 500;
+    color:#343434;
+    text-transform: uppercase;
+    margin: 0;
+}
+sup {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
