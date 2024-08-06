@@ -150,4 +150,74 @@ sup {
 
 h2 {
     font-size: 20px;
+    margin: 0;
+}
+
+.photo-2 {
+    height: 280px;
+  }
+
+#schedule {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 572px;
+    gap: 28px;
+}
+
+#events-couple {
+    display: flex;
+    justify-content: space-between;   
+}
+
+#events-container {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    justify-content: space-between;
+}
+
+.event-individual {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.event-name {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.time {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #343434;
+}
+
+.location a {
+    font-size: 14px;
+    color: #000000;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.tag {
+    width: 14px;
 }
