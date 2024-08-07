@@ -151,6 +151,7 @@ sup {
 h2 {
     font-size: 20px;
     margin: 0;
+    text-transform: capitalize;
 }
 
 .photo-2 {
@@ -161,7 +162,6 @@ h2 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-items: center;
     width: 572px;
     gap: 28px;
 }
@@ -220,4 +220,110 @@ h2 {
 }
 .tag {
     width: 14px;
+}
+
+#dress-code {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    gap: 28px;
+}
+
+#dress {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#colors {
+    display: flex;
+    gap: 28px;
+}
+
+.square {
+    width: 28px;
+    height: 28px;
+}
+
+.sentence {
+    margin: 0;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#attendance {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    gap: 45px;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    width: 250px;
+}
+
+.input-container input {
+    width: 100%;
+}
+
+#all-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.feather-icon {
+
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+    
+
+button {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #343434;
+    width: 160px;
+    padding: 16px 8px;
+    border-radius: 8px;
+    border: none;
+    align-self: center;
+}
+
+footer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 200;
 }
