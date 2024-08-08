@@ -269,17 +269,43 @@ h2 {
 
 .inputs {
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .input-container {
     position: relative;
     display: flex;
-    width: 250px;
+    flex:1;
+}
+
+.radio-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.radio-wrapper input {
+    width: 16px;
+    height: 16px;
+}
+
+.radio-wrapper label {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
 .input-container input {
     width: 100%;
+    padding: 14px 8px;
+    background-color: transparent;
+    border: 1px solid #343434;
+    border-radius: 4px;
+}
+
+.input-container input:focus {
+    border: 1px solid #000000;
 }
 
 #all-inputs {
@@ -288,8 +314,40 @@ h2 {
     gap: 28px;
 }
 
-.feather-icon {
+.input-container input:focus::placeholder {
+    color: transparent;
+}
 
+.input-container label {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: 0%;
+    left: 8px;
+    font-size: 10px;
+    background-color: #FFEAEA;
+}
+
+.feather-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url(images/quill.svg) no-repeat center;
+    background-size: contain;
+    pointer-events: none;
 }
 
 .input-wrapper {
