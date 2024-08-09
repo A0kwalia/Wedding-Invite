@@ -285,16 +285,40 @@ h2 {
     gap: 8px;
 }
 
-.radio-wrapper input {
-    width: 16px;
-    height: 16px;
+
+.radio-wrapper input[type="radio"] {
+    display: none;
 }
 
+.radio-wrapper .checkmark {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #343434;
+    background-color: transparent;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radio-wrapper input[type="radio"]:checked + .checkmark {
+    background-color: #343434;
+    border-color: #343434;
+}
+
+
 .radio-wrapper label {
+    display: flex;
+    gap: 8px;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
+    color: #000000;
+    cursor: pointer;
+    align-items: center;
 }
+
+
 
 .input-container input {
     width: 100%;
