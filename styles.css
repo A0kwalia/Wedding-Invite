@@ -8,6 +8,7 @@ body {
     padding: 40px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 60px;
 }
 
@@ -60,7 +61,7 @@ h1 {
     width: 28px;
 }
 
-#header {
+#flourish {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -69,6 +70,7 @@ h1 {
 #couple {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .deco-small {
@@ -103,10 +105,10 @@ h1 {
 }
 
 #countdown div {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
 
 .timer {
@@ -133,8 +135,11 @@ gap: 12px;
 
 #invite-date {
     max-width: 572px;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     line-height: normal;
+    margin: 0 auto;
 }
 
 .invite {
@@ -144,6 +149,7 @@ gap: 12px;
     text-transform: uppercase;
     margin: 0;
 }
+
 sup {
     font-size: 10px;
 }
