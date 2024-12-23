@@ -11,54 +11,54 @@
     <script src="script.js" defer> </script>
 </head>
 
-<body>
+<body class="flex-col gap-xxxl align-center">
     <!--Couple Name + Pictures-->
-    <div id="couple">
+    <div class="flex-col gap-lg">
         <!--Flourish Deco + Wedding Title-->
-        <div id = "flourish">
+        <div class="flex-col gap-md">
             <!--Deco Upper Side-->
-            <div class = "deco">
-                <div class="deco-half">
+            <div class = "justify-center align-center flex-row gap-xs">
+                <div class="align-center flex-row gap-xxs">
                     <img class="heart" src="images/love-heart.svg" alt="A love heart" />
                     <div class="line-1"></div> 
                 </div>
                 <img class="rings" src="images/wedding-rings.svg" alt="A pair of Wedding rings" />
-                <div class="deco-half">
+                <div class="align-center flex-row gap-xxs">
                     <div class="line-1"></div> 
                     <img class="heart" src="images/love-heart.svg" alt="A love heart" />
                 </div>
             </div>
             <h1> Theodore & Anastasia's Wedding </h1>
             <!--Deco Lower Side-->
-            <div class = "deco">
-                <div class="deco-half">
+            <div class = "justify-center align-center flex-row gap-xs">
+                <div class="align-center flex-row gap-xxs">
                     <img class="heart" src="images/love-heart.svg" alt="A love heart" />
                     <div class="line-1"></div> 
                 </div>
                 <img class="rings" src="images/wedding-rings.svg" alt="A pair of Wedding rings" />
-                <div class="deco-half">
+                <div class="align-center flex-row gap-xxs">
                     <div class="line-1"></div> 
                     <img class="heart" src="images/love-heart.svg" alt="A love heart" />
                 </div>
             </div>
         </div>
         <!--The couple's photo-->
-        <img class="photo-1" src="images/couple.jpg" alt="A Wedding Couple" />
+        <img class="photo-1 height-lg" src="images/couple.jpg" alt="A Wedding Couple" />
     </div>
     
     <!--Invite + Date-Time-->
-    <div id="invite-date">
-        <div id="invitation">
+    <div class="section-width flex-col">
+        <div class="justify-between flex-row">
             <p class="invite">You are invited</p>
             <p class="invite">April 27<sup>th</sup> 2025</p>
         </div>
-        <div id = "deco-timer">
-            <div class = "deco-small">
+        <div class="flex-col gap-lg">
+            <div class = "justify-center align-center flex-row gap-xs">
                 <div class="line-2"></div> 
                 <img class="rings-2" src="images/wedding-rings.svg" alt="A pair of Wedding rings" />
                 <div class="line-2"></div> 
             </div>
-            <div id = "countdown">
+            <div id = "countdown" class=" justify-center flex-row gap-xxxl">
                 <div>
                     <p class="timer"id="days">120</p>
                     <p class="timer-label">days</p>
@@ -76,7 +76,7 @@
                     <p class="timer-label">seconds</p>
                 </div>
             </div>
-            <div class = "deco-small">
+            <div class = "justify-center align-center flex-row gap-xs">
                 <div class="line-2"></div> 
                 <img class="rings-2" src="images/wedding-rings.svg" alt="A pair of Wedding rings" />
                 <div class="line-2"></div>
@@ -85,60 +85,60 @@
     </div>
 
     <!--Wedding Schedule-->
-    <section id="schedule">
+    <section class="section-width flex-col gap-lg">
         <h2>Schedule</h2>
-        <div id="events-couple">
-            <div id="events-container">
-                <div class="event-individual">
+        <div class="justify-between flex-row">
+            <div class="justify-between flex-col">
+                <div class="flex-row gap-md">
                     <p class="time">16:00</p>
-                    <div class="event">
+                    <div class="flex-col gap-xs">
                         <p class="event-name">grooms & guests arrival at church</p>
-                        <div class="location">
+                        <div class="location flex-row gap-xxs">
                             <a href="url">church of the holy resurrection</a>
                             <img class = "tag" src="images/location-tag.svg" alt="A location tag icon">
                         </div>
                     </div>
                 </div>
-                <div class="event-individual">
+                <div class="flex-row gap-md">
                     <p class="time">17:00</p>
-                    <div class="event">
+                    <div class="flex-col gap-xs">
                         <p class="event-name">wedding ceremony begins</p>
-                        <div class="location">
+                        <div class="location flex-row gap-xxs">
                             <a href="url">church of the holy resurrection</a>
                             <img class = "tag" src="images/location-tag.svg" alt="A location tag icon">
                         </div>
                     </div>
                 </div>
-                <div class="event-individual">
+                <div class="flex-row gap-md">
                     <p class="time">18:00</p>
-                    <div class="event">
+                    <div class="flex-col gap-xs">
                         <p class="event-name">bus ride to reception</p>
-                        <div class="location">
+                        <div class="location flex-row gap-xxs">
                             <a href="url">red cross centre</a>
                             <img class = "tag" src="images/location-tag.svg" alt="A location tag icon">
                         </div>
                     </div>
                     </div>
-                <div class="event-individual">
+                <div class="flex-row gap-md">
                     <p class="time">18:30</p>
-                    <div class="event">
+                    <div class="flex-col gap-xs">
                         <p class="event-name">banquet</p>
-                        <div class="location">
+                        <div class="location flex-row gap-xxs">
                             <a href="url">capital hill grounds</a>
                             <img class = "tag" src="images/location-tag.svg" alt="A location tag icon">
                         </div>
                     </div>
                 </div>
             </div>
-            <img class="photo-2" src="images/couple2.jpg" alt="Wedding couple's hands">
+            <img class="height-lg" src="images/couple2.jpg" alt="Wedding couple's hands">
         </div>
     </section>
 
     <!--Dress code section-->
-    <section id="dress-code">
+    <section class="section-width flex-col gap-lg">
         <h2>dress code</h2>
-        <div id="dress">
-            <div id="colors">
+        <div id="dress" class="flex-col gap-md">
+            <div id="colors" class="flex-row gap-lg">
                 <div class="square" style="background-color: #EAFFFF;"></div>
                 <div class="square" style="background-color: #FFC8C8;"></div>
                 <div class="square" style="background-color: #FF8A8A;"></div>
@@ -149,13 +149,13 @@
     </section>
 
     <!--RSVP form section-->
-    <form id="attendance">
-        <div id="column">
+    <form id="attendance" class="section-width flex-col gap-xxl">
+        <div class="flex-col gap-lg">
             <h2>attendance</h2>
-            <div id="all-inputs">
-                <div class="input-wrapper">
+            <div id="all-inputs" class="flex-col gap-lg">
+                <div class="input-wrapper flex-col gap-md">
                     <p class="sentence">Please RSVP so we can prepare an amazing weekend for you</p>
-                    <div class="inputs">
+                    <div class="inputs justify-between flex-row gap-xl">
                         <div class="input-container">
                             <input type="text" placeholder="" name="fname" id="first_name_guest">
                             <label for="first_name_guest">first name</label>
@@ -168,15 +168,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="input-wrapper">
-                    <div class="radio-wrapper">
+                <div class="input-wrapper flex-col gap-md">
+                    <div class="radio-wrapper flex-row gap-xs">
                         <label for="present">
                             <input type="radio" name="RSVP" id="present" value="present">
                             <span class="checkmark"></span>
                             i will be there
                         </label>
                     </div>
-                    <div class="radio-wrapper">
+                    <div class="radio-wrapper flex-row gap-xs">
                         <label for="absent">
                             <input type="radio" name="RSVP" id="absent" value="absent">
                             <span class="checkmark"></span>
@@ -184,9 +184,9 @@
                         </label>
                     </div>
                 </div>
-                <div class="input-wrapper">
+                <div class="input-wrapper flex-col gap-md">
                     <p class="sentence">If you are coming with someone write their name here</p>
-                    <div class="inputs">
+                    <div class="inputs justify-between flex-row gap-xl">
                         <div class="input-container">
                             <input type="text" placeholder="" name="fname" id="first_name_extra">
                             <label for="first_name_extra">first name</label>
@@ -206,7 +206,7 @@
     </form>
 
     <!--Website Footer-->
-    <footer>
+    <footer class="align-center flex-col gap-sm">
         <p>Looking forward to sharing this day with you</p>
         <img class="heart" src="images/love-heart.svg" alt="A love heart" />
         <h3 class="event-name" style="text-transform: uppercase;">theodore & anastasia</h3>
