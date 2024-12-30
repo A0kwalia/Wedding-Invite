@@ -246,6 +246,11 @@ h2 {
     flex:1;
 }
 
+.input-container:has(input:disabled) {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
 .radio-wrapper input[type="radio"] {
     display: none;
 }

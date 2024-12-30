@@ -47,7 +47,7 @@
     </div>
     
     <!--Invite + Date-Time-->
-    <div class="section-width flex-col">
+    <section class="section-width flex-col">
         <div class="justify-between flex-row">
             <p class="invite">You are invited</p>
             <p class="invite">April 27<sup>th</sup> 2025</p>
@@ -82,7 +82,7 @@
                 <div class="line-2"></div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--Wedding Schedule-->
     <section class="section-width flex-col gap-lg">
@@ -188,12 +188,12 @@
                     <p class="sentence">If you are coming with someone write their name here</p>
                     <div class="inputs justify-between flex-row gap-xl">
                         <div class="input-container">
-                            <input type="text" placeholder="" name="fname" id="first_name_extra">
+                            <input type="text" placeholder="" disabled name="fname" id="first_name_extra">
                             <label for="first_name_extra">first name</label>
                             <i class="feather-icon"></i>
                         </div>
                         <div class="input-container">
-                            <input type="text" placeholder="" name="lname" id="last_name_extra">
+                            <input type="text" placeholder="" disabled name="lname" id="last_name_extra">
                             <label for="last_name_extra">last name</label>
                             <i class="feather-icon"></i>
                         </div>
@@ -212,5 +212,29 @@
         <h3 class="event-name" style="text-transform: uppercase;">theodore & anastasia</h3>
     </footer>
     
+    <script>
+        //radio and inputs saved as variables
+        const will_be_there = document.getElementById('present');
+        const not_be_there = document.getElementById('absent');
+        const first_name_extra = document.getElementById('first_name_extra');
+        const last_name_extra = document.getElementById('last_name_extra');
+        
+        //check if guest will be coming then enable the inputs 
+        will_be_there.addEventListener('change', function() {
+            if (this.checked) {
+                first_name_extra.disabled = false;
+                last_name_extra.disabled = false;
+            }
+        });
+        //check if gues will not be coming and leave inputs disabled
+        not_be_there.addEventListener('change', function() {
+            if (this.checked) {
+                first_name_extra.disabled = true;
+                last_name_extra.disabled = true;
+            }
+        });
+
+    </script>
+
 </body>
 </html>
