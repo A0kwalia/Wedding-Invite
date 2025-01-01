@@ -10,7 +10,7 @@ console.log(__dirname);
 dotenv.config({ path: path.join(__dirname, 'backend/.env') });
 const PORT = process.env.PORT || 3000;
 const url = process.env.GOOGLE_WEB_APP_URL; // Store the Google Web App URL in .env
-console.log('Google Sheets URL:', url);
+
 
 // Middleware to parse JSON
 app.use(bodyParser.json());
