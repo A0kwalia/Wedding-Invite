@@ -12,7 +12,7 @@
   },
 
   "scripts": {
-  "start": "nodemon server.js"
+  "start": "node backend/server.js"
 }
 
 }

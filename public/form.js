@@ -8,7 +8,6 @@ document.getElementById('attendance').addEventListener('submit', async(event) =>
     submit_button.style.cursor = 'not-allowed';
     submit_button.textContent = 'Loading...';
 
-
     //retrieve form data
     const first_name_guest = document.getElementById('first_name_guest').value;
     const last_name_guest = document.getElementById('last_name_guest').value;
