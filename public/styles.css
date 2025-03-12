@@ -117,7 +117,9 @@ h1 {
 .line-1 {
     background: var(--jet-black);
     height: 1px;
-    width: 400px;
+    flex: 1;
+    max-width: 400px;
+    min-width: 30px;    
 }
 
 .heart {
@@ -383,7 +385,7 @@ footer p {
 @media screen and (min-width: 320px) and (max-width: 809px) {
 
     .line-1 {
-        width: 144px;
+        width: 200px;
     }
     
     .heart {
