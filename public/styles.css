@@ -84,6 +84,10 @@
     height: 280px;
 }
 
+.height-lg-second {
+    height: 280px;
+}
+
 .section-width {
     width: var(--section-width);
 }
@@ -378,6 +382,11 @@ footer p {
     
     :root {
         --font-xlg: 24px;
+        --section-width: 456px;
+    }
+
+    .line-2 {
+        flex: 1;
     }
 }
 
@@ -398,5 +407,13 @@ footer p {
 
     :root {
         --font-xlg: 20px;
+        --section-width: 320px;
+        --font-sm: 10px;
+        --font-xxs: 6px;
+        --gap-xxxl: 48px;
+    }
+
+    .height-lg-second {
+        display: none;
     }
 }
